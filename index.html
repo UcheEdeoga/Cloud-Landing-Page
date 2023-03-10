@@ -4,7 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <meta name="description" content="Deploy your websites in less than  60seconds">
+        <meta property="og:title" content="Moshify....">
+        <meta property="og:description" content="Moshify....">
+        <meta property="og:type" content="Websites">
+        <meta property="og:image" content="http://">
+        <meta property="og:url" content="https://moshified.com">
+        <title>Moshify - Go online for just $9</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -12,7 +18,86 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <a href="#" class="link-arrow">Learn More</a>
+
+        <header>
+            <nav class="nav collapsible collapsible--expanded">
+                <a class="nav__brand" href="/"><img src="images/logo.svg" alt=""></a>
+                <svg class="icon icon--white nav__toggler">
+                    <use xlink:href="images/sprite.svg#menu"></use>
+                </svg>
+                <ul class="list nav__list collapsible__content">
+                    <li class="nav__item"><a href="#"></a>Hosting</li>
+                    <li class ="nav__item"><a href="#"></a>VPS</li>
+                    <li class = "nav__item"><a href="#"></a>Domain</li>
+                    <li class="nav__item"><a href="#"></a>Pricing</li>      
+                </ul>
+            </nav>
+        </header>
+
+        <section class="block block--dark block--skewed-left hero">
+            <div class="container grid grid--1x2">
+                <header class="block__header hero__content">
+                    <h1 class="block__heading">Cloud Hosting for Pros</h1>
+                    <p class="hero__tagline">Deploy your websites in less than 60 seconds</p>
+                    <a href="" class="btn btn--accent btn--strected">Get Started</a>
+                </header>
+                <Picture>
+                    <source type="image/webp" src="images/banner.webp 1x, images/banner@2x.webp 2x">
+                    <source type="image/png" src="images/banner.png 1x, images/banner@2x.png 2x">
+        
+                    <img class="hero__image" src="images/banner.png" alt="">
+                </Picture>
+            </div>
+        </section>
+
+
+        <section class="block container block-domain">
+            <header class="block__header">
+                <h2>Starting at $9 per month</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, ducimus.</p>
+            </header>
+            <div class="input-group">
+                <input type="text" class="input" placeholder="Enter domain name here...">
+                <button class="btn btn--accent">
+                    <svg class="icon icon--white">
+                        <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>Search</button>
+            </div>
+            <ul class="list block-domain__prices">
+                <li>.com $9</li>
+                <li><span class="badge badge--secondary">.sg $10</span></li>
+                <li>.space $11</li>
+                <li>.net $10</li>
+                <li>.xyz $10</li>
+                <li>.info $10</li>
+            </ul>
+        </section>
+
+
+        <div class="plan plan--popular">
+            <div class="card card--primary">
+                <header class="card__header">
+                    <h3 class="plan__name">Entry</h3>
+                    <span class="plan__price">$14</span>
+                    <span class="plan__billinng-circle">/month</span>
+                    <span class="badge badge--secondary badge--small">10% OFF</span>
+                    <span class="plan__description">Easy Start on the cloud</span>
+                </header>
+                <div class="card__body">
+                    <ul class="list list--tick">
+                        <li class="list__item">Unlimited Websites</li>
+                        <li class="list__item">Unlimited Bandwidth</li>
+                        <li class="list__item">100 GB SSD Storage</li>
+                        <li class="list__item">3 GB RAM</li>
+                    </ul>
+                    <button class="btn btn--outline btn--block">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- <a href="#" class="link-arrow">Learn More</a>
         <span class="badge badge--primary">10% off</span>
         <ul class="list list--tick">
             <li class="list__item">Item 1</li>
@@ -105,9 +190,9 @@
                         <use xlink:href="images/sprite.svg#chevron"></use>
                     </svg>
             </header>
-        </div>
-        <div class="collapsible__content">
+            <div class="collapsible__content">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, officiis?
+             </div>
         </div>
         
             <section class="block container">
@@ -135,66 +220,18 @@
         </section>
 
 
-        <nav class="nav collapsible collapsible--expanded">
-            <a class="nav__brand" href="/"><img src="images/logo.svg" alt=""></a>
-            <svg class="icon icon--white nav__toggler">
-                <use xlink:href="images/sprite.svg#menu"></use>
-            </svg>
-            <ul class="list nav__list collapsible__content">
-                <li class="nav__item"><a href="#"></a>Hosting</li>
-                <li nav__item><a href="#"></a>VPS</li>
-                <li nav__item><a href="#"></a>Domain</li>
-                <li nav__item><a href="#"></a>Pricing</li>
-                
-            </ul>
-        </nav>
+        
 
 
 
-        <section class="block block--dark block--skewed-left hero">
-            <div class="container grid grid--1x2">
-                <header class="block__header hero__content">
-                    <h1 class="block__heading">Cloud Hosting</h1>
-                    <p class="hero__tagline">Deploy your websites in less than 60 seconds</p>
-                    <a href="" class="btn btn--accent btn--strected">Get Started</a>
-                </header>
-                <Picture>
-                    <source type="image/webp" src="images/banner.webp 1x, images/banner@2x.webp 2x">
-                    <source type="image/png" src="images/banner.png 1x, images/banner@2x.png 2x">
-
-                    <img class="hero__image" src="images/banner.png" alt="">
-                </Picture>
-            </div>
-        </section>
+        
 
 
 
 
 
 
-        <section class="block container block-domain">
-            <header class="block__header">
-                <h2>Starting at $9 per month</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, ducimus.</p>
-            </header>
-            <div class="input-group">
-                <input type="text" class="input" placeholder="Enter domain">
-                <button class="btn btn--accent">
-                    <svg class="icon icon--white">
-                        <use xlink:href="images/sprite.svg#search"></use>
-                    </svg>Search</button>
-            </div>
-            <ul class="list block-domain__prices">
-                <li>.com $9</li>
-                <span class="badge badge--secondary">
-                    <li>.sg $10</li>
-                </span>
-                <li>.space $11</li>
-                <li>.net $10</li>
-                <li>.xyz $10</li>
-                <li>.info $10</li>
-            </ul>
-        </section>
+        
 
 
 
@@ -387,6 +424,108 @@
                         </ul>
                 </header>
             </section>
+
+            <section class="block">
+                <header class="block__header">
+                    <h2>What Our Customers are Saying</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, odit?</p>
+                </header>
+                <div class="container">
+                    <div class="card testimonial">
+                        <div class="grid grid--1x2">
+                            <div class="testimonial__image">
+                                <img src="images/testimonial.jpg" alt="A happy smiling customer">
+                                <span class="icon-container icon-container--accent">
+                                    <svg class="icon icon--primary icon--white icon--small">
+                                        <use xlink:href="images/sprite.svg#quotes"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <blockquote class="quote">
+                                <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, aut.</p>
+                                <footer>
+                                    <div class="media">
+                                        <div class="media__image">
+                                            <svg class="icon icon--primary quote__line">
+                                                <use xlink:href="images/sprite.svg#line"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="media__body">
+                                            <h3 class="media__title quote__author">John Henderson</h3>
+                                            <p class="quote__organization">
+                                                ABC Company
+                                            </p>
+                                        </div>
+                                    </div>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <footer class="block block--dark footer">
+                    <div class="container grid footer__sections">
+                        <section class="collapsible collapsible--expanded footer__section">
+                            <header class="collapsible__header">
+                                <h2 class="collapsible__heading footer__heading"></h2>
+                                <svg class="icon icon--primary icon--white collapsible__chevron">
+                                    <use xlink:href="images/sprite.svg#chevron"></use>
+                                </svg>
+                            </header>
+                            <div class="collapsible__content">
+                                <ul class="list">
+                                    <li><a href="#">Web Hosting</a> </li>
+                                    <li><a href="#">Web Hosting</a></li>
+                                    <li><a href="#">Web Hosting</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    <section class="collapsible footer__section">
+                        <header class="collapsible__header">
+                            <h2 class="collapsible__heading footer__heading"></h2>
+                            <svg class="icon icon--primary icon--white collapsible__chevron">
+                                <use xlink:href="images/sprite.svg#chevron"></use>
+                            </svg>
+                        </header>
+                        <div class="collapsible__content">
+                            <ul class="list">
+                                <li><a href="#">Web Hosting</a> </li>
+                                <li><a href="#">Web Hosting</a></li>
+                                <li><a href="#">Web Hosting</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="collapsible footer__section">
+                        <header class="collapsible__header">
+                            <h2 class="collapsible__heading footer__heading"></h2>
+                            <svg class="icon icon--primary icon--white collapsible__chevron">
+                                <use xlink:href="images/sprite.svg#chevron"></use>
+                            </svg>
+                        </header>
+                        <div class="collapsible__content">
+                        <ul class="list">
+                            <li><a href="#">Web Hosting</a> </li>
+                            <li><a href="#">Web Hosting</a></li>
+                            <li><a href="#">Web Hosting</a></li>
+                        </ul>
+                        </div>
+                    </section>
+
+                    <section class="footer__brand">
+                        <img src="images/logo.svg" alt="">
+                        <p class="footter__copyright">Copyright 2022 Mandy</p>
+                    </section>
+                    </div>
+                </footer>
+            </section>
+ -->
+
+
         <script src="js/main.js"></script>
     </body>
 </html> 

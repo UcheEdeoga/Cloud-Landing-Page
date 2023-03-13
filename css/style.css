@@ -804,7 +804,8 @@ a {
   }
 }
 
-/* Showcase Block */
+/* 
+ Block */
 
 .block-showcase__image > img {
   width: 100%;
@@ -834,6 +835,10 @@ a {
 .footer a {
   color: #777;
   transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #fff;
 }
 
 .footer__section {
@@ -888,7 +893,7 @@ a {
     font-size: 1.5rem;
   }
 
-  .footer__sections {
+  .footer__section {
     border: 0;
   }
 

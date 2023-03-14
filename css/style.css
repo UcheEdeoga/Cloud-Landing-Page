@@ -562,6 +562,9 @@ a {
   font-size: 3rem;
 }
 
+.callout-signup {
+  transform: translateY(5rem);
+}
 .callout .btn {
   justify-self: center;
   align-self: center;
@@ -830,6 +833,7 @@ a {
 
 .footer {
   background: #232323;
+  padding-top: 10rem;
 }
 
 .footer a {
@@ -872,7 +876,7 @@ a {
 }
 
 @media screen and (minwidth: 768px) {
-  .footer__sections {
+  .footer__section {
     grid-template-columns: repeat(autofit, minmax(10rem, 1fr));
   }
 
